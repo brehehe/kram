@@ -886,7 +886,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   border-radius: 50%;
   border: 5px solid #e8e8e8;
-  border-top: 5px solid #eb2f5b;
+  border-top: 5px solid #ffff00;
   -webkit-animation: rotate 1.2s infinite linear;
   animation: rotate 1.2s infinite linear;
 }

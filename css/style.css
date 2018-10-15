@@ -68,7 +68,7 @@ span, a, a:hover {
 .section-head {
   margin-bottom: 20px; }
   .section-head h6 {
-    color: #eb2f5b;
+    color: #fff200;
     font-size: 15.5px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -133,7 +133,7 @@ span, a, a:hover {
   background-size: auto; }
 
 .sub-title {
-  color: #eb2f5b;
+  color: #ffff00;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 10px; }
@@ -184,7 +184,7 @@ span, a, a:hover {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #eb2f5b; }
+  background: #ffff00; }
 
 /* ----------------------------------------------------------------
      [ End Basics ]
@@ -236,28 +236,28 @@ span, a, a:hover {
     transition-delay: .2s; }
 
 .butn-bord {
-  border-color: #eb2f5b; }
+  border-color: #ffff00; }
   .butn-bord:before, .butn-bord:after {
-    background: #eb2f5b; }
+    background: #ffff00; }
   .butn-bord:hover span {
     color: #fff; }
 
 .butn-bg {
-  background: #eb2f5b;
-  border-color: #eb2f5b;
-  color: #fff; }
+  background: #ffff00;
+  border-color: #ffff00;
+  /*color: #fff;*/ color: #333; }
   .butn-bg:hover span {
-    color: #eb2f5b; }
+    /*color: #ffff00;*/ color: #333; }
 
 .butn-light {
   background: #fff; }
   .butn-light:before, .butn-light:after {
-    background: #eb2f5b; }
+    background: #ffff00; }
   .butn-light:hover span {
-    color: #fff; }
+    /*color: #fff;*/ color: #333; }
   .butn-light span {
-    color: #eb2f5b; }
-
+    /*color: #ffff00;*/ color: #333; }
+[data-overlay-dark] span{color: #333;}
 /* ----------------------------------------------------------------
      [ End Buttons ]
 -----------------------------------------------------------------*/
@@ -288,7 +288,7 @@ span, a, a:hover {
       display: inline-block;
       opacity: 1; }
   .navbar .navbar-nav .active {
-    color: #eb2f5b !important; }
+    color: #ffff00 !important; }
 
 .nav-scroll {
   background: #fff;
@@ -310,7 +310,7 @@ span, a, a:hover {
 
 .logo {
   padding: 15px 5px;
-  width: 100px; }
+  width: 300px; }
 
 /* ----------------------------------------------------------------
      [ End Navbar ]
@@ -358,7 +358,7 @@ span, a, a:hover {
         .header .caption p span:last-child:after {
           display: none; }
       .header .caption p span:after {
-        background: #eb2f5b;
+        background: #ffff00;
         border-radius: 50%;
         content: '';
         height: 7px;
@@ -398,7 +398,7 @@ span, a, a:hover {
   width: 100%;
   z-index: 2; }
   .creative .svg svg {
-    fill: #eb2f5b;
+    fill: #ffff00;
     width: 101%; }
 
 #video-background {
@@ -416,7 +416,7 @@ span, a, a:hover {
     font-weight: 300;
     margin-bottom: 10px; }
     .page-header h6 a:hover {
-      color: #eb2f5b; }
+      color: #ffff00; }
     .page-header h6 i {
       font-size: 10px;
       margin: 0 15px; }
@@ -451,11 +451,11 @@ span, a, a:hover {
   .services .serv-item:hover {
     background-color: #fff; }
     .services .serv-item:hover .icon {
-      background: #eb2f5b;
+      background: #ffff00;
       color: #fff; }
   .services .serv-item .icon {
     border-radius: 50%;
-    color: #eb2f5b;
+    color: #ffff00;
     font-size: 40px;
     height: 80px;
     width: 80px;
@@ -487,10 +487,10 @@ span, a, a:hover {
   padding: 15px 20px;
   transition: all 0.3s ease 0s; }
   .works .filtering span:hover {
-    background: #eb2f5b;
+    background: #ffff00;
     color: #fff; }
 .works .filtering .active {
-  background: #eb2f5b;
+  background: #ffff00;
   box-shadow: 0px 8px 30px -5px rgba(0, 0, 0, 0.2);
   color: #fff; }
 .works .gallery {
@@ -551,7 +551,7 @@ span, a, a:hover {
     line-height: 1.3;
     letter-spacing: -0.05em;
     display: inline-block;
-    border-bottom: 3px solid #eb2f5b;
+    border-bottom: 3px solid #ffff00;
     padding-bottom: 5px;
     margin-bottom: 20px; }
 
@@ -562,7 +562,7 @@ span, a, a:hover {
      [ 08 Start Numbers ]
 -----------------------------------------------------------------*/
 .numbers .icon {
-  color: #eb2f5b;
+  color: #ffff00;
   font-size: 45px;
   margin-bottom: 20px; }
 .numbers h3 {
@@ -580,7 +580,7 @@ span, a, a:hover {
   font-size: 60px;
   margin-bottom: 10px; }
 .states .sub-title {
-  color: #eb2f5b; }
+  color: #ffff00; }
 .states h5 {
   font-weight: 200;
   line-height: 1.5;
@@ -588,7 +588,7 @@ span, a, a:hover {
   padding-bottom: 30px;
   position: relative; }
   .states h5:after {
-    background: #eb2f5b;
+    background: #ffff00;
     bottom: 0;
     content: '';
     height: 1px;
@@ -624,7 +624,7 @@ span, a, a:hover {
     z-index: -1; }
   .testimonials-grid .item .icon {
     border-radius: 50%;
-    color: #eb2f5b;
+    color: #ffff00;
     font-size: 40px;
     height: 80px;
     width: 80px;
@@ -649,7 +649,7 @@ span, a, a:hover {
     white-space: nowrap;
     width: 116px; }
     .testimonials-grid .item .rating:before {
-      color: #eb2f5b;
+      color: #ffff00;
       content: "\f005\f005\f005\f005\f005";
       font-family: 'FontAwesome',sans-serif;
       font-size: 15px;
@@ -663,7 +663,7 @@ span, a, a:hover {
       font-size: 25px;
       padding-top: 10px; }
       .testimonials-grid .item .info h6 span {
-        color: #eb2f5b;
+        color: #ffff00;
         display: block;
         font-size: 13px;
         margin-top: 5px;
@@ -712,11 +712,11 @@ span, a, a:hover {
       margin-bottom: 10px; }
     .blog .item .cont a.rmore {
       font-size: 13px;
-      color: #eb2f5b;
+      color: #ffff00;
       font-weight: 800;
       letter-spacing: 2.5px;
       text-transform: uppercase;
-      border-bottom: 1px solid #eb2f5b; }
+      border-bottom: 1px solid #ffff00; }
   .blog .item h3 {
     font-size: 33px;
     margin-bottom: 15px; }
@@ -778,12 +778,12 @@ span, a, a:hover {
      [ 12 Start Footer ]
 -----------------------------------------------------------------*/
 .one-footer {
-  background: #eb2f5b;
+  background: #ffff00;
   padding: 80px 0; }
   .one-footer .logo {
     width: 150px; }
   .one-footer .social a {
-    color: #eb2f5b;
+    color: #333;
     font-size: 15px;
     width: 40px;
     height: 40px;
@@ -795,7 +795,7 @@ span, a, a:hover {
     .one-footer .social a:hover {
       transform: scale(0.9); }
   .one-footer p {
-    color: #eee;
+    color: #333;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
@@ -852,7 +852,7 @@ span, a, a:hover {
   .nav-scroll .navbar-collapse .nav-link {
     color: #fff !important; }
   .nav-scroll .navbar-collapse .active {
-    color: #eb2f5b !important; }
+    color: #ffff00 !important; }
 
   .header {
     background-attachment: scroll !important;
@@ -934,3 +934,6 @@ span, a, a:hover {
      [ The End ]
 -----------------------------------------------------------------*/
 
+@media only screen and (max-width:480px) {
+    .logo{width: 200px;}
+}
